@@ -101,5 +101,6 @@ set -l reasons \
     "Looking back on this moment in 10 years and knowing you made it"
 
 set_color cyan
-echo "💙 $reasons[(random 1 (count $reasons))]"
+set -l idx (random 1 (count $reasons))
+echo "💙 $reasons[$idx]"
 set_color normal
