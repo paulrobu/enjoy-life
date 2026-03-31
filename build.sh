@@ -39,6 +39,8 @@ mkdir -p "$SCRIPT_DIR/conf.d"
   echo "set -l reasons \\"
   for i in "${!REASONS[@]}"; do
     reason="${REASONS[$i]}"
+    # Capitalize first letter at build time — avoids runtime Fish version differences
+    reason="${reason^}"
     if [[ $i -lt $(( COUNT - 1 )) ]]; then
       echo "    \"$reason\" \\"
     else
@@ -47,7 +49,7 @@ mkdir -p "$SCRIPT_DIR/conf.d"
   done
   echo ""
   echo "set_color cyan"
-  echo "echo \"💙 \"(string upper -c -- \$reasons[(random 1 (count \$reasons))])"
+  echo "echo \"💙 \$reasons[(random 1 (count \$reasons))]\""
   echo "set_color normal"
 } > "$FISH_OUT"
 echo "✓ $FISH_OUT"

@@ -2,104 +2,104 @@
 # Edit reasons.txt and run ./build.sh to regenerate
 
 set -l reasons \
-    "make your parents proud" \
-    "conquer your fears" \
-    "see your family again" \
-    "see your favourite artist live" \
-    "listen to music again" \
-    "experience a new culture" \
-    "make new friends" \
-    "inspire someone" \
-    "have your own children" \
-    "adopt your own pet" \
-    "make yourself proud" \
-    "meet your idols" \
-    "laugh until you cry" \
-    "feel tears of happiness" \
-    "eat your favorite food" \
-    "see your siblings grow" \
-    "pass school" \
-    "get a tattoo" \
-    "smile until your cheeks hurt" \
-    "meet your internet friends" \
-    "find someone who loves you like you deserve" \
-    "eat ice cream on a hot day" \
-    "drink hot chocolate on a cold day" \
-    "see untouched snow in the morning" \
-    "see a sunset that sets the sky on fire" \
-    "see stars light up the sky" \
-    "read a book that changes your life" \
-    "see the flowers in the spring" \
-    "see the leaves change from green to brown" \
-    "travel abroad" \
-    "learn a new language" \
-    "learn to draw" \
-    "tell others your story and help them" \
-    "puppy kisses" \
-    "baby kisses - the open mouthed kind on your cheek" \
-    "swear words and the release you feel when you say them" \
-    "trampolines" \
-    "ice cream" \
-    "stargazing" \
-    "cloud watching" \
-    "taking a shower and sleeping in clean sheets" \
-    "receiving thoughtful gifts" \
-    "hearing someone say: I saw this and thought of you" \
-    "the feeling when someone you love says I love you" \
-    "the relief you feel after crying" \
-    "sunshine" \
-    "the feeling of someone giving you their full attention" \
-    "your future wedding" \
-    "your favorite candy bar" \
-    "new clothes" \
-    "witty puns" \
-    "really good bread" \
-    "holding your child in your arms for the first time" \
-    "completing a milestone — college, graduation, your dream job" \
-    "dreams where you wake up and can't stop smiling" \
-    "the smell before and after it rains" \
-    "the sound of rain against a rooftop" \
-    "the feeling you get when you're dancing" \
-    "the people that mean the most to you" \
-    "trying out new recipes" \
-    "when your favorite song comes on" \
-    "the rush you get when you step onto a stage" \
-    "your voice and talents and knowledge are valuable to the world" \
-    "breakfast in bed" \
-    "getting the middle seat in the movie theater" \
-    "breakfast for dinner" \
-    "forgiveness" \
-    "water balloon fights" \
-    "new books by your favorite authors" \
-    "fireflies" \
-    "birthdays" \
-    "realizing that someone loves you" \
-    "spending the whole day with someone you love" \
-    "the opportunity to build meaningful and lasting relationships" \
-    "the potential to learn, grow, and evolve as a person" \
-    "joy in the little things" \
-    "the power to inspire others" \
-    "the ability to create art, music, and self-expression" \
-    "exploring different cultures, traditions, and ways of life" \
-    "making a positive impact on the planet" \
-    "the joys of raising a family" \
-    "learning new skills" \
-    "creating a legacy that will outlive you" \
-    "being wrapped up in a warm bed" \
-    "cuddles" \
-    "holding hands" \
-    "the kind of hug where your breath syncs with someone else's" \
-    "singing off key with your best friends" \
-    "road trips" \
-    "spontaneous adventures" \
-    "the feeling of sand beneath your toes" \
-    "the first ocean wave that rolls over your feet" \
-    "thunderstorms" \
-    "the child-like feeling you get on Christmas morning" \
-    "the day when everything finally goes your way" \
-    "compliments and kind words from people who mean it" \
-    "looking back on this moment in 10 years and knowing you made it"
+    "Make your parents proud" \
+    "Conquer your fears" \
+    "See your family again" \
+    "See your favourite artist live" \
+    "Listen to music again" \
+    "Experience a new culture" \
+    "Make new friends" \
+    "Inspire someone" \
+    "Have your own children" \
+    "Adopt your own pet" \
+    "Make yourself proud" \
+    "Meet your idols" \
+    "Laugh until you cry" \
+    "Feel tears of happiness" \
+    "Eat your favorite food" \
+    "See your siblings grow" \
+    "Pass school" \
+    "Get a tattoo" \
+    "Smile until your cheeks hurt" \
+    "Meet your internet friends" \
+    "Find someone who loves you like you deserve" \
+    "Eat ice cream on a hot day" \
+    "Drink hot chocolate on a cold day" \
+    "See untouched snow in the morning" \
+    "See a sunset that sets the sky on fire" \
+    "See stars light up the sky" \
+    "Read a book that changes your life" \
+    "See the flowers in the spring" \
+    "See the leaves change from green to brown" \
+    "Travel abroad" \
+    "Learn a new language" \
+    "Learn to draw" \
+    "Tell others your story and help them" \
+    "Puppy kisses" \
+    "Baby kisses - the open mouthed kind on your cheek" \
+    "Swear words and the release you feel when you say them" \
+    "Trampolines" \
+    "Ice cream" \
+    "Stargazing" \
+    "Cloud watching" \
+    "Taking a shower and sleeping in clean sheets" \
+    "Receiving thoughtful gifts" \
+    "Hearing someone say: I saw this and thought of you" \
+    "The feeling when someone you love says I love you" \
+    "The relief you feel after crying" \
+    "Sunshine" \
+    "The feeling of someone giving you their full attention" \
+    "Your future wedding" \
+    "Your favorite candy bar" \
+    "New clothes" \
+    "Witty puns" \
+    "Really good bread" \
+    "Holding your child in your arms for the first time" \
+    "Completing a milestone — college, graduation, your dream job" \
+    "Dreams where you wake up and can't stop smiling" \
+    "The smell before and after it rains" \
+    "The sound of rain against a rooftop" \
+    "The feeling you get when you're dancing" \
+    "The people that mean the most to you" \
+    "Trying out new recipes" \
+    "When your favorite song comes on" \
+    "The rush you get when you step onto a stage" \
+    "Your voice and talents and knowledge are valuable to the world" \
+    "Breakfast in bed" \
+    "Getting the middle seat in the movie theater" \
+    "Breakfast for dinner" \
+    "Forgiveness" \
+    "Water balloon fights" \
+    "New books by your favorite authors" \
+    "Fireflies" \
+    "Birthdays" \
+    "Realizing that someone loves you" \
+    "Spending the whole day with someone you love" \
+    "The opportunity to build meaningful and lasting relationships" \
+    "The potential to learn, grow, and evolve as a person" \
+    "Joy in the little things" \
+    "The power to inspire others" \
+    "The ability to create art, music, and self-expression" \
+    "Exploring different cultures, traditions, and ways of life" \
+    "Making a positive impact on the planet" \
+    "The joys of raising a family" \
+    "Learning new skills" \
+    "Creating a legacy that will outlive you" \
+    "Being wrapped up in a warm bed" \
+    "Cuddles" \
+    "Holding hands" \
+    "The kind of hug where your breath syncs with someone else's" \
+    "Singing off key with your best friends" \
+    "Road trips" \
+    "Spontaneous adventures" \
+    "The feeling of sand beneath your toes" \
+    "The first ocean wave that rolls over your feet" \
+    "Thunderstorms" \
+    "The child-like feeling you get on Christmas morning" \
+    "The day when everything finally goes your way" \
+    "Compliments and kind words from people who mean it" \
+    "Looking back on this moment in 10 years and knowing you made it"
 
 set_color cyan
-echo "💙 "(string upper -c -- $reasons[(random 1 (count $reasons))])
+echo "💙 $reasons[(random 1 (count $reasons))]"
 set_color normal
