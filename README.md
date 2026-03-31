@@ -11,13 +11,13 @@ Available for **Fish**, **Zsh**, **Bash** and **PowerShell**.
 ### Install with Fisher
 
 ```fish
-fisher install yourusername/enjoy-life
+fisher install paulrobu/enjoy-life
 ```
 
 ### Uninstall
 
 ```fish
-fisher remove yourusername/enjoy-life
+fisher remove paulrobu/enjoy-life
 ```
 
 ---
@@ -27,7 +27,7 @@ fisher remove yourusername/enjoy-life
 ### Install with zinit
 
 ```zsh
-zinit light yourusername/enjoy-life
+zinit light paulrobu/enjoy-life
 ```
 
 ### Install with antidote
@@ -35,13 +35,13 @@ zinit light yourusername/enjoy-life
 Add to your `.zsh_plugins.txt`:
 
 ```
-yourusername/enjoy-life
+paulrobu/enjoy-life
 ```
 
 ### Install with Oh My Zsh
 
 ```zsh
-git clone https://github.com/yourusername/enjoy-life \
+git clone https://github.com/paulrobu/enjoy-life \
   ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/enjoy-life
 ```
 
@@ -58,7 +58,7 @@ Remove the plugin from your plugin manager, or remove the `source` line from `~/
 ### Install
 
 ```bash
-git clone https://github.com/yourusername/enjoy-life ~/.enjoy-life
+git clone https://github.com/paulrobu/enjoy-life ~/.enjoy-life
 echo 'source ~/.enjoy-life/enjoy-life.bash' >> ~/.bashrc
 source ~/.bashrc
 ```
@@ -84,7 +84,7 @@ Works on Windows, macOS, and Linux (PowerShell 5.1+).
 ### Install
 
 ```powershell
-git clone https://github.com/yourusername/enjoy-life "$HOME/.enjoy-life"
+git clone https://github.com/paulrobu/enjoy-life "$HOME/.enjoy-life"
 ```
 
 Then add this line to your PowerShell profile (`$PROFILE`):
