@@ -1,6 +1,6 @@
-# enjoy-life
+# 💙 enjoy-life
 
-> 💙 A tiny shell plugin that shows a random reason to enjoy life every time you open a new terminal.
+> A tiny shell plugin that shows a random reason to enjoy life every time you open a new terminal.
 
 Available for **Fish**, **Zsh**, **Bash** and **PowerShell**.
 

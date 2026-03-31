@@ -13,7 +13,11 @@ if [[ ! -f "$REASONS_FILE" ]]; then
 fi
 
 # Read reasons into an array, skipping blank lines and comments
-mapfile -t REASONS < <(grep -v '^\s*$\|^\s*#' "$REASONS_FILE")
+# (while read loop used for bash 3.2 compat — macOS default)
+REASONS=()
+while IFS= read -r line; do
+  REASONS+=("$line")
+done < <(grep -v '^\s*$\|^\s*#' "$REASONS_FILE")
 COUNT=${#REASONS[@]}
 echo "Building from $COUNT reasons..."
 
